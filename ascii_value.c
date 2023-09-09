@@ -5,11 +5,13 @@ int main()
     char b;
     printf("enter a character :\t");
     scanf("%c", &b);
-    printf("enter a number :\t");
-    scanf("%d", &a);
-    printf("%c\n", a);
+    //print ascii value
+    printf("ascii value is :-\t%d\n", b);
 
-    
-    printf("%d", b);
+    printf("enter ascii value to print character :\t");
+    scanf("%d", &a);
+    //print character from ascii value
+    printf("character is :-\t %c", a);
+
     return 0;
 }

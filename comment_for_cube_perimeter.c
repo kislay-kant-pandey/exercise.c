@@ -21,7 +21,7 @@ int main()
  2. store their values in variable through memory address
  3. put these values on formula and calculate final value
  4. store final value in variable and print final value*/
-    printf("enter length of rectanglr :\t");
+    printf("\nenter length of rectanglr :\t");
     scanf("%d", &a);
 
     printf("enter width of rectangle : \t");
